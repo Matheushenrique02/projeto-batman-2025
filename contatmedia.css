@@ -1,0 +1,44 @@
+@media (max-width: 768px){
+
+header{
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    
+}
+
+main{
+    padding: 20px;
+}
+
+
+article{
+    width: 70vw;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    width: 200px;
+}
+
+button{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}

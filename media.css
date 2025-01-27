@@ -1,0 +1,128 @@
+@media (max-width: 850px){
+
+
+    *{
+        overflow-x: hidden;
+    }
+
+    header{
+        overflow: hidden;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        
+
+    }
+
+    #logo{
+        height: 80px;
+        overflow: hidden;
+    }
+    
+    #itens{
+        display: none;
+        overflow: hidden;
+        color: white;
+    }
+
+    menu a{
+        display: flex;
+        width: 100px; 
+    }
+
+    #burger{
+        color: darkred;
+        display: block;
+        overflow: hidden;
+        font-size: 2em;
+        padding: 15px;
+    }
+
+    #burger:hover{
+        color:white;
+        transform: scale(1.3);
+        transition: .5s;
+        cursor: pointer;
+        
+    }
+
+    #banner{
+        width: 100vw;
+        background-position: center;
+        background-image: url('https://cdn.awsli.com.br/800x800/1610/1610163/produto/177680691/poster-the-batman-j-4033ffcb.jpg');
+
+    }
+
+    section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px;
+        
+    }
+
+    #video{
+        margin: auto;
+    }
+
+    #video iframe{
+        width: 350px;
+        
+    }
+
+   
+
+    #info{
+        width: 100vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0px;
+        
+    }
+
+    #info p{
+        overflow: hidden;
+        height: 182px;
+        padding: 50px;
+        width: 330px;
+        margin: 0px;
+        font-size: 1.1em;
+        text-align: justify;
+       
+    }
+
+    #conteiner{
+        width: 85vw;
+
+    }
+
+   #gato, #batman, #gordon{
+    margin-right: 10px;
+    width: 300px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

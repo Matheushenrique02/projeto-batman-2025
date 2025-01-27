@@ -1,0 +1,124 @@
+*{
+    overflow-x: hidden;
+    
+}
+
+header{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+#img{
+    background-image: url('https://motivatevalmorgan.com/wp-content/uploads/2022/02/The-Batman-MVM-Website-Landing-Page-Banner.png');
+    height: 450px;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+
+header a{
+    background-color: darkred;
+    border-radius: 5px;
+    width: 200px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    text-align: center;
+    color:black;
+    overflow-y: hidden;
+}
+
+header a:hover{
+    color:white;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgba(139, 0, 0, 0.377);
+    height: 100px;
+    overflow-y: hidden;
+    height: 400px;
+    width: 80vw;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#content2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgba(139, 0, 0, 0.377);
+    height: 100px;
+    overflow-y: hidden;
+    height: 400px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#img1{
+    background-image: url('https://t2.tudocdn.net/614415?w=1200&h=1200');
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border: 5px double black;
+}
+
+#img2{
+    background-image: url('https://www.tribunapr.com.br/wp-content/uploads/sites/56/2022/02/28121731/rev-1-TBM-11721r_High_Res_JPEG.jpeg');
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border: 5px double black;
+}
+
+#img3{
+    background-image: url('https://s2-techtudo.glbimg.com/uDBr3fWsGCSVhsD40IRwth6ltto=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/5/2/JhbDZXSN67wjcAqFLALQ/robert-pattinson-811119484f574723885b5bfbb109f749.jpg');
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border: 5px double black;
+}
+
+#img4{
+    background-image: url('https://f.i.uol.com.br/fotografia/2022/03/16/164745983562323dfbcf124_1647459835_5x2_lg.jpg');
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border: 5px double black;
+}
+
+#img5{
+    background-image: url('https://arthurtuoto.com/wp-content/uploads/2022/03/BATMAN-08.jpg');
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border: 5px double black;
+}
+
+#img6{
+    background-image: url('https://legadodadc.com.br/wp-content/uploads/2022/03/The-Batman-and-Gil-Colson-at-funeral-legadodadc.webp');
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border: 5px double black;
+}
+
+
+
+p{
+    overflow:hidden;
+}

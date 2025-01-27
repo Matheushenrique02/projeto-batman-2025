@@ -1,0 +1,61 @@
+header{
+    margin-bottom: 20px;
+}
+
+
+
+#bot{
+    width: 200px;
+    margin: auto;
+    background-color: darkred;
+    text-align: center;
+    padding:5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+#bot a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    overflow: hidden;
+    display: block;
+    padding: 10px 20px;
+}
+
+#bot a:hover{
+    color: white;
+    transition: .5s;
+}
+
+
+
+#conteiner{
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-image: url('https://portalpopline.com.br/wp-content/uploads/2022/02/batman-ensanguentado.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#linhas{
+    margin: 10px;
+    background-color: darkred;
+    color: whitesmoke;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+span{
+    overflow: hidden;
+    align-self: flex-end;
+    height: 20px;
+    color: black;
+}

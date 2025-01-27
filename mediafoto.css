@@ -1,0 +1,29 @@
+@media (max-width: 768px){
+
+#img{
+    background-size: cover;
+    background-position: left;
+}
+
+#content , #content2{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+#img1 , #img2 , #img3 , #img4 , #img5 , #img6{
+    margin: 5px;
+    height: 200px;
+    background-position: bottom;
+}
+
+
+
+
+
+
+
+
+
+}

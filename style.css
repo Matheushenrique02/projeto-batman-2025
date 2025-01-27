@@ -1,0 +1,220 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kumbh Sans", serif; 
+}
+
+html{
+    background-color: black;
+}
+
+header{
+    background-color: black;
+    height: 90px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    width: 70vw;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+ header a:hover{
+    background-color: darkred;
+    color: black;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+#logo{
+    background-image: url('https://preview.redd.it/i-made-an-arkham-series-logo-that-has-all-4-games-v0-yl2vczxdmdac1.png?width=1080&crop=smart&auto=webp&s=0665bee465f5bdea81dc06bc7c89c88eedfc38e2');
+    height: 80px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+#banner{
+    background-image: url('https://pbs.twimg.com/media/FBwJWeQXIAItfyH.jpg:large');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    background-color: black;
+    color: white;
+    display: flex;
+    
+}
+
+#video{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section p{
+    height: 100px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 100px;
+    margin-left:50px;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+button{
+    padding: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover{
+    color: black;
+    transition: .5s;
+}
+
+#conteiner{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+#batman{
+    background-image: url('https://conteudo.imguol.com.br/c/entretenimento/04/2022/02/25/batman-1645790799911_v2_3x4.jpg');
+    height: 600px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align:center;
+    font-weight: bold;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 10px;
+
+}
+
+#gordon{
+    background-image: url('https://preview.redd.it/r96po045tlu81.png?auto=webp&s=65cd151728dfcca3f2f74726cdb6f0a305c17ac0');
+    height: 600px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align:center;
+    font-weight: bold;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#gato{
+    background-image: url('https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2022/03/07/1422205986-catwoman-batman-zoekravitz.jpg');
+    height: 600px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align:center;
+    font-weight: bold;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+#batman:hover, #gordon:hover , #gato:hover{
+   
+    transition: 1s;
+    border: 5px solid darkred;
+    transform: scale(0.9);
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+}
+
+footer #logo{
+    background-position: center;
+}
+
+footer p{
+    margin: 20px;
+    margin-top:15px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+footer a {
+    background-color: none;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    background-color: darkred;
+    color: black;
+    padding: 5px;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+#burger{
+    color:white;
+    display: none;
+}
