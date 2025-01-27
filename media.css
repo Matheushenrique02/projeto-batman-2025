@@ -49,6 +49,7 @@
     }
 
     #banner{
+        margin-bottom: 50px;
         width: 100vw;
         background-position: center;
         background-image: url('https://cdn.awsli.com.br/800x800/1610/1610163/produto/177680691/poster-the-batman-j-4033ffcb.jpg');
@@ -65,6 +66,7 @@
 
     #video{
         margin: auto;
+        
     }
 
     #video iframe{
